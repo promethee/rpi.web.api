@@ -10,8 +10,8 @@
 
 ```
 {
-  "params": {},
-  "query": {}
+  "params": {}, // body params from the call
+  "query": {} // querystring from the call
 }
 ```
 
@@ -20,8 +20,8 @@
 ```
 {
   "date": {
-    "time": 1582975572828,
-    "readable": "Sat, 29 Feb 2020 11:26:12 GMT"
+    "time": 1582975572828, // milliseconds since Unix Epoch (UTC)
+    "readable": "Sat, 29 Feb 2020 11:26:12 GMT" // UTC date
   }
 }
 ```
