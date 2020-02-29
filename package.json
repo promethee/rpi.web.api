@@ -1,0 +1,33 @@
+{
+  "name": "rpi.web.api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A simple web api starting point for raspberry iot related projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promethee/rpi.web.api.git"
+  },
+  "author": "promethee <lunette.francois@gmail.com>",
+  "keywords": [
+    "raspberry",
+    "rpi",
+    "api"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/promethee/rpi.web.api/issues"
+  },
+  "homepage": "https://github.com/promethee/rpi.web.api#readme",
+  "scripts": {
+    "dev": "micro-dev",
+    "start": "micro",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fs-router": "^0.5.0",
+    "micro": "^9.3.4"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
